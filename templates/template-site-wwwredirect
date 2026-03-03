@@ -1,0 +1,10 @@
+# easyinstallWWWredirectStart - Force WWW or non-WWW redirect
+server {
+	listen 80;
+	listen [::]:80;
+	#server_name;
+
+	include common/headers-http.conf;
+	#return 301;
+}
+# easyinstallWWWredirectEnd
